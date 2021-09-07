@@ -9,8 +9,8 @@
 #include <IRremoteESP8266.h>
 #include <WiFiClient.h>
 
-const char *ssid = "DD";
-const char *password = "J42ghaQY";
+const char *ssid = "";
+const char *password = "";
 MDNSResponder mdns;
 
 ESP8266WebServer server(80);
